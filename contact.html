@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us — YAMER</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="contact">
+
+<div id="site-header"></div>
+
+<section class="page-hero">
+  <div class="wrap">
+    <span class="hero-eyebrow">Contact Us</span>
+    <h1>Get in touch with YAMER</h1>
+    <p class="lead">Research enquiries, collaboration requests, and general contact details for the YAMER office.</p>
+  </div>
+</section>
+
+<nav class="subnav">
+  <div class="wrap">
+    <a href="#office">YAMER Office</a>
+    <a href="#enquiry">Research Enquiry</a>
+    <a href="#collaboration">Collaboration Request</a>
+    <a href="#map">Map</a>
+  </div>
+</nav>
+
+<section class="section" id="office">
+  <div class="wrap">
+    <span class="eyebrow">YAMER Office</span>
+    <h2>Reach the YAMER team</h2>
+    <div class="card-grid grid-4" style="margin-top:20px;">
+      <div class="card"><h3>Address</h3><p>YAMER, Hyderabad, Telangana, India</p></div>
+      <div class="card"><h3>Telephone</h3><p>+91 40 1234512345</p></div>
+      <div class="card"><h3>Email</h3><p>yamer@yashodahospitals.com</p></div>
+      <div class="card"><h3>Office Hours</h3><p>Mon–Fri, 9:00 AM – 6:00 PM IST</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="enquiry">
+  <div class="wrap">
+    <span class="eyebrow o">Research Enquiry Form</span>
+    <h2>General enquiries — research, publications &amp; collaboration</h2>
+    <form class="form-grid" style="margin-top:20px;max-width:900px;" onsubmit="event.preventDefault(); alert('This is a prototype form — connect it to your email or CRM system to go live.');">
+      <div class="field"><label for="e-name">Full Name</label><input id="e-name" type="text" required></div>
+      <div class="field"><label for="e-email">Email</label><input id="e-email" type="email" required></div>
+      <div class="field"><label for="e-org">Organisation (if any)</label><input id="e-org" type="text"></div>
+      <div class="field"><label for="e-topic">Enquiry Type</label>
+        <select id="e-topic">
+          <option>Research Collaboration</option>
+          <option>Publication Enquiry</option>
+          <option>Clinical Trial Information</option>
+          <option>General Enquiry</option>
+        </select>
+      </div>
+      <div class="field full"><label for="e-msg">Message</label><textarea id="e-msg" required></textarea></div>
+      <div class="full"><button type="submit" class="btn btn-primary">Send Enquiry</button></div>
+    </form>
+  </div>
+</section>
+
+<section class="section" id="collaboration">
+  <div class="wrap">
+    <span class="eyebrow">Collaboration Request</span>
+    <h2>Academic, industry &amp; government partnerships</h2>
+    <form class="form-grid" style="margin-top:20px;max-width:900px;" onsubmit="event.preventDefault(); alert('This is a prototype form — connect it to your email or CRM system to go live.');">
+      <div class="field"><label for="p-org">Institution / Company</label><input id="p-org" type="text" required></div>
+      <div class="field"><label for="p-contact">Contact Person</label><input id="p-contact" type="text" required></div>
+      <div class="field"><label for="p-email">Email</label><input id="p-email" type="email" required></div>
+      <div class="field"><label for="p-type">Partnership Type</label>
+        <select id="p-type">
+          <option>Academic Partnership</option>
+          <option>Industry Collaboration</option>
+          <option>Government Collaboration</option>
+          <option>International Collaboration</option>
+        </select>
+      </div>
+      <div class="field full"><label for="p-msg">Proposal Summary</label><textarea id="p-msg" required></textarea></div>
+      <div class="full"><button type="submit" class="btn btn-primary">Submit Request</button></div>
+    </form>
+  </div>
+</section>
+
+<section class="section section-alt" id="map">
+  <div class="wrap">
+    <span class="eyebrow o">Google Maps</span>
+    <h2>YAMER office location</h2>
+    <div style="border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:16px;">
+      <iframe title="YAMER Office Location" src="https://www.google.com/maps?q=Yashoda%20Hospitals%20Hyderabad&output=embed" width="100%" height="380" style="border:0;display:block;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

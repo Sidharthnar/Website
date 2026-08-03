@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Work Scope — YAMER</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="work-scope">
+
+<div id="site-header"></div>
+
+<section class="page-hero">
+  <div class="wrap">
+    <span class="hero-eyebrow">Work Scope</span>
+    <h1>Every functional domain of YAMER's research mission</h1>
+    <p class="lead">From clinical research and publications to digital innovation, compliance and research support services.</p>
+  </div>
+</section>
+
+<nav class="subnav">
+  <div class="wrap">
+    <a href="#clinical-research">Clinical Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#digital-innovation">Digital Innovation</a>
+    <a href="#innovation-pipeline">Innovation Pipeline</a>
+    <a href="#collaborations">Collaborations</a>
+    <a href="#support-services">Support Services</a>
+    <a href="#quality">Quality &amp; Compliance</a>
+  
+  
+  </div>
+</nav>
+
+<!-- CLINICAL RESEARCH -->
+<section class="section" id="clinical-research">
+  <div class="wrap">
+    <span class="eyebrow">Clinical Research</span>
+    <h2>From proposal to publication</h2>
+    <div class="callout" style="margin-bottom:28px;">
+      <div>
+        <h4>Submit a new research proposal</h4>
+        <p>Internal proposals use the ICMR Concept Proposal Form, along with details of the funding source.</p>
+      </div>
+      <a href="#" class="btn btn-primary btn-sm">Upload Proposal Form</a>
+    </div>
+    <div class="card-grid grid-3">
+      <div class="card"><h3>Ongoing Research Projects</h3><p>Active studies currently underway across departments.</p></div>
+      <div class="card"><h3>Completed Projects</h3><p>Archive of concluded research with outcome summaries.</p></div>
+      <div class="card"><h3>Department-wise Research</h3><p>Browse projects by clinical department or specialty.</p></div>
+      <div class="card"><h3>Research Repository</h3><p>Central archive of protocols, datasets and reports.</p></div>
+      <div class="card"><h3>Translational Research</h3><p>Bridging laboratory findings and clinical application.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- ===================== PUBLICATIONS ===================== -->
+<section class="section section-alt" id="publications">
+  <div class="wrap">
+
+      <span class="eyebrow o">Publications</span>
+      <h2>Scientific Output from YAMER Researchers</h2>
+      <p class="section-desc">
+         
+      </p>
+
+      <!-- Filters -->
+      <div class="publication-filters">
+
+          <input
+              type="text"
+              id="searchInput"
+              placeholder="Search title, author or journal..."
+          >
+
+          <select id="departmentFilter">
+              <option value="all">All Departments</option>
+              <option value="Cardiology">Cardiology</option>
+              <option value="Critical Care">Critical Care</option>
+              <option value="Urology">Urology</option>
+              <option value="Microbiology">Microbiology</option>
+              <option value="Paediatrics">Paediatrics</option>
+          </select>
+
+          <select id="yearFilter">
+              <option value="all">All Years</option>
+              <option value="2026">2026</option>
+              <option value="2025">2025</option>
+              <option value="2024">2024</option>
+              <option value="2023">2023</option>
+          </select>
+
+      </div>
+
+      <div class="table-scroll">
+
+          <table class="data-table">
+
+              <thead>
+                  <tr>
+                      <th>Title</th>
+                      <th>Authors</th>
+                      <th>Department</th>
+                      <th>Journal</th>
+                      <th>Year</th>
+                  </tr>
+              </thead>
+
+              <tbody>
+
+                  <tr data-department="Cardiology" data-year="2026">
+                      <td>Outcomes of minimally invasive cardiac surgery in high-risk patients</td>
+                      <td>Rao S. et al.</td>
+                      <td>Cardiology</td>
+                      <td>Indian Heart Journal</td>
+                      <td>2026</td>
+                  </tr>
+
+                  <tr data-department="Critical Care" data-year="2026">
+                      <td>Machine learning models for sepsis prediction in tertiary ICUs</td>
+                      <td>Iyer P. et al.</td>
+                      <td>Critical Care</td>
+                      <td>Journal of Critical Care</td>
+                      <td>2026</td>
+                  </tr>
+
+                  <tr data-department="Urology" data-year="2025">
+                      <td>Long-term renal outcomes after robotic partial nephrectomy</td>
+                      <td>Verma A. et al.</td>
+                      <td>Urology</td>
+                      <td>Indian Journal of Urology</td>
+                      <td>2025</td>
+                  </tr>
+
+                  <tr data-department="Microbiology" data-year="2025">
+                      <td>Antimicrobial stewardship impact across multi-centre ICUs</td>
+                      <td>Krishnan M. et al.</td>
+                      <td>Microbiology</td>
+                      <td>Clinical Infectious Diseases</td>
+                      <td>2024</td>
+                  </tr>
+
+                  <tr data-department="Paediatrics" data-year="2025">
+                      <td>Paediatric asthma management outcomes in tertiary care</td>
+                      <td>Nair R. et al.</td>
+                      <td>Paediatrics</td>
+                      <td>Indian Pediatrics</td>
+                      <td>2024</td>
+                  </tr>
+
+              </tbody>
+
+          </table>
+
+      </div>
+
+  </div>
+</section>
+
+<!-- DIGITAL INNOVATION -->
+<section class="section" id="digital-innovation">
+  <div class="wrap">
+    <span class="eyebrow">Digital Innovation</span>
+    <h2>Technology in service of clinical outcomes</h2>
+    <div class="card-grid grid-3" style="margin-top:20px;">
+      <div class="card"><h3>Artificial Intelligence in Healthcare</h3><p>Predictive and diagnostic AI models developed with clinical teams.</p></div>
+      <div class="card"><h3>Digital Health</h3><p>Remote monitoring, telehealth and patient engagement tools.</p></div>
+      <div class="card"><h3>Clinical Decision Support Systems</h3><p>Point-of-care support integrated into daily clinical workflows.</p></div>
+      <div class="card"><h3>Healthcare Analytics</h3><p>Applied data science across operational and clinical datasets.</p></div>
+      <div class="card"><h3>Medical Technology Development</h3><p>Device and software innovation from concept to pilot.</p></div>
+      <div class="card">
+        <span class="tag o">Yashoda Connect</span>
+        <h3>AI-Based Clinical Decision Support</h3>
+        <p>Advanced clinical support systems and predictive tools deployed through the Yashoda Connect platform.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INNOVATION PIPELINE -->
+<section class="section section-alt" id="innovation-pipeline">
+  <div class="wrap">
+    <span class="eyebrow">Innovation Pipeline</span>
+    <h2>From concept to clinical implementation</h2>
+    <p class="desc">The pathway every YAMER innovation project follows, from initial concept through to adoption in clinical practice.</p>
+    <div class="pipeline" style="margin-top:36px;">
+      <div class="pipeline-step"><div class="node"></div><h4>Concept</h4><p>Idea identified from clinical need</p></div>
+      <div class="pipeline-step"><div class="node"></div><h4>Feasibility</h4><p>Scientific &amp; technical review</p></div>
+      <div class="pipeline-step"><div class="node"></div><h4>Development</h4><p>Prototype &amp; protocol design</p></div>
+      <div class="pipeline-step"><div class="node"></div><h4>Validation</h4><p>Clinical testing &amp; ethics review</p></div>
+      <div class="pipeline-step"><div class="node"></div><h4>Implementation</h4><p>Deployment across departments</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- COLLABORATIONS -->
+<section class="section" id="collaborations">
+  <div class="wrap">
+    <span class="eyebrow o">Research Collaborations</span>
+    <h2>Working across institutions and industry</h2>
+    <div class="card-grid grid-3" style="margin-top:20px;">
+      <div class="card"><h3>Academic Partnerships</h3><p>Joint research with universities and medical colleges.</p></div>
+      <div class="card"><h3>Industry Collaborations</h3><p>Sponsored studies and co-development with industry partners.</p></div>
+      <div class="card"><h3>Government Collaborations</h3><p>Projects aligned with national health research priorities.</p></div>
+      <div class="card"><h3>International Collaborations</h3><p>Cross-border research partnerships and consortia.</p></div>
+      <div class="card"><h3>Research Networks</h3><p>Participation in multi-centre research networks.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SUPPORT SERVICES -->
+<section class="section section-alt" id="support-services">
+  <div class="wrap">
+    <span class="eyebrow">Research Support Services</span>
+    <h2>What every YAMER study can draw on</h2>
+    <div class="card-grid grid-3" style="margin-top:20px;">
+      <div class="card"><h3>Biostatistics</h3><p>Study design and statistical analysis support.</p></div>
+      <div class="card"><h3>Data Management</h3><p>Secure collection, storage and governance of research data.</p></div>
+      <div class="card"><h3>Regulatory Affairs</h3><p>Guidance through CDSCO and other regulatory pathways.</p></div>
+      <div class="card"><h3>Research Coordination</h3><p>End-to-end project coordination across sites.</p></div>
+      <div class="card"><h3>Scientific Writing Support</h3><p>Manuscript preparation and publication support.</p></div>
+      <div class="card"><h3>Project Management</h3><p>Timeline, budget and milestone tracking for research projects.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- QUALITY & COMPLIANCE -->
+<section class="section" id="quality">
+  <div class="wrap">
+    <span class="eyebrow o">Quality &amp; Compliance</span>
+    <h2>Research conducted to the highest standard</h2>
+
+    <div class="card-grid grid-3" style="margin-top:20px;">
+
+      <div class="card">
+        <h3>Research Quality Assurance</h3>
+        <p>Ongoing audit and monitoring of research conduct.</p>
+      </div>
+
+      <div class="card">
+        <h3>Good Clinical Practice (GCP)</h3>
+        <p>GCP-aligned processes across all clinical studies.</p>
+      </div>
+
+      <div class="card">
+        <h3>Good Laboratory Practice (GLP)</h3>
+        <p>GLP-aligned processes across all studies.</p>
+      </div>
+
+      <div class="card">
+        <h3>Regulatory Compliance</h3>
+        <p>Adherence to CDSCO, ICMR and institutional requirements.</p>
+      </div>
+
+      <div class="card">
+        <h3>SOPs</h3>
+        <p>Standard operating procedures for every stage of research.</p>
+      </div>
+
+      <div class="card">
+        <h3>CDSCO, CTRI &amp; HMSC</h3>
+        <p>Direct links to apply and register research studies.</p>
+
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;">
+          <a href="https://cdsco.gov.in" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">CDSCO ↗</a>
+          <a href="https://ctri.nic.in" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">CTRI ↗</a>
+          <a href="https://hmsc.dhr.gov.in/" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">HMSC ↗</a>
+        </div>
+      </div>
+
+      <!-- New Card -->
+      <div class="card">
+        <h3>Download Annual Report Template</h3>
+        <p></p>
+
+        <div style="margin-top:10px;">
+          <a href="downloads/templates.zip" class="btn btn-sm btn-primary" download>
+            Download Template
+          </a>
+        </div>
+      </div>
+
+      <!-- New Card -->
+      <div class="card">
+        <h3>Upload Annual Report</h3>
+        <p>Submit the Annual Report for departmental review and archival.</p>
+
+        <div style="margin-top:10px;">
+          <a href="upload-report.html" class="btn btn-sm btn-primary">
+            Upload Report
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
